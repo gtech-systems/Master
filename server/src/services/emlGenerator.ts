@@ -118,7 +118,7 @@ export async function generateRechnungLieferscheinEml(
           email: customer.email.trim(),
         });
       }
-      
+
       if (customer?.email_rechnungen) {
         contactPersons.push({ name: "Rechnungen", email: customer.email_rechnungen.trim() });
       }
